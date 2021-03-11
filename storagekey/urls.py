@@ -20,5 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('data', include('data.urls')),
     path('users/', include('user.urls')),
-    path('tokens/', include('btoken.urls')),
+    # path('tokens/', include('btoken.urls')),
 ]
